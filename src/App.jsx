@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './components/header'
+import Competencies from './components/Competencies'
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
       <div>
         <Header />
-        hello world
+        <Competencies />
       </div>
     </>
   )

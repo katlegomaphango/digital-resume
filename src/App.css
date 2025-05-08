@@ -34,6 +34,21 @@ img {
   font-size: 1.5rem;
 }
 
+/********* Competencies *********/
+.competencies {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  gap: 2rem;
+}
+
+.proficiency,
+.skills {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
   /********* Mobile view *********/
 @media only screen and (max-width: 600px) {
   #root {
